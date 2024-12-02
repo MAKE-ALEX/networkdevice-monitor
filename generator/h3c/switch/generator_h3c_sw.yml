@@ -50,7 +50,7 @@ modules:
     retries: 3
     timeout: 5s
 
-  h3c_interface:
+  h3c_interface: # 华三交换机接口信息
     walk:
       # 接口信息 - 索引 ifIndex
       - 1.3.6.1.2.1.2.2.1.2                   # ifDescr - 接口描述
